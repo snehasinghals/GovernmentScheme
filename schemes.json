@@ -49,8 +49,6 @@
   {"id":48,"name":"Weather-Based Crop Insurance Scheme","category":"Insurance","description":"Insurance for crops based on weather parameters.","eligibility":"All farmers","url":"https://pmfby.gov.in/","status":"Active"},
   {"id":49,"name":"Livestock Development Scheme","category":"Production Support","description":"Support for dairy, poultry, and small ruminant farming.","eligibility":"Farmers, Cooperatives, FPOs","url":"https://dahd.nic.in/","status":"Active"},
   {"id":50,"name":"Farmers’ Training & Extension Scheme","category":"Skill Development","description":"Training programs to improve agricultural practices and productivity.","eligibility":"All farmers","url":"https://nmaet.nic.in/","status":"Active"}
-]
-[
   {"id":51,"name":"National Pulses Development Project","category":"Production Support","description":"Increase pulses production through improved varieties and practices.","eligibility":"Farmers, FPOs","url":"https://nfsm.gov.in/","status":"Active"},
   {"id":52,"name":"National Oilseeds and Oil Palm Mission","category":"Production Support","description":"Promote cultivation and productivity of oilseeds and oil palm.","eligibility":"Farmers, FPOs","url":"https://agricoop.nic.in/","status":"Active"},
   {"id":53,"name":"FPO Support for Agri-Inputs","category":"Institution Building","description":"Provide seeds, fertilizers, machinery support to FPOs.","eligibility":"Farmer Producer Organizations","url":"https://sfacindia.com/","status":"Active"},
