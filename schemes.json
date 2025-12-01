@@ -1,92 +1,1554 @@
 [
-  {"id":1,"name":"PM Kisan Samman Nidhi","category":"Income Support","description":"₹6000 yearly support for farmers","eligibility":"All landholding farmers","url":"https://pmkisan.gov.in/","status":"Active"},
-  {"id":2,"name":"National Food Security Mission","category":"Production Support","description":"Increase production of cereals, pulses, and millets through cluster approach.","eligibility":"Farmers, FPOs, SHGs","url":"https://nfsm.gov.in/","status":"Active"},
-  {"id":3,"name":"Formation & Promotion of FPOs","category":"Institution Building","description":"Financial assistance for forming and strengthening Farmer Producer Organizations.","eligibility":"Groups of 300+ farmers","url":"https://sfacindia.com/","status":"Active"},
-  {"id":4,"name":"Agriculture Infrastructure Fund","category":"Infrastructure","description":"₹1 lakh crore fund for post-harvest infrastructure including storage and processing.","eligibility":"Farmers, FPOs, Startups, Processors","url":"https://agriinfra.dac.gov.in/","status":"Active"},
-  {"id":5,"name":"PMFME","category":"Processing Support","description":"Support for millet processing units, value addition, and branding.","eligibility":"Micro enterprises, SHGs, FPOs","url":"https://pmfme.mofpi.gov.in/","status":"Active"},
-  {"id":6,"name":"Organic Certification Support","category":"Certification","description":"Financial assistance for organic certification of agricultural produce.","eligibility":"All organic farmers","url":"https://apeda.gov.in/","status":"Active"},
-  {"id":7,"name":"Price Deficiency Payment Scheme","category":"Price Support","description":"Ensures remunerative prices to farmers when market price falls below MSP.","eligibility":"All farmers growing notified crops","url":"https://agricoop.nic.in/","status":"Active"},
-  {"id":8,"name":"PM-AASHA","category":"Price Support","description":"Pradhan Mantri Annadata Aay SanraksHan Abhiyan for MSP-based procurement.","eligibility":"All farmers","url":"https://agricoop.gov.in/","status":"Active"},
-  {"id":9,"name":"Rashtriya Krishi Vikas Yojana","category":"Production Support","description":"Support for holistic development of agriculture and allied sectors.","eligibility":"Farmers, FPOs, State Agriculture Departments","url":"https://rkvy.nic.in/","status":"Active"},
-  {"id":10,"name":"Soil Health Card Scheme","category":"Soil & Fertility","description":"Provide farmers with soil health cards for better crop planning and fertilizer usage.","eligibility":"All farmers","url":"https://soilhealth.dac.gov.in/","status":"Active"},
-  {"id":11,"name":"National Mission on Sustainable Agriculture","category":"Sustainable Agriculture","description":"Promote climate-resilient practices and sustainable agriculture.","eligibility":"Farmers, FPOs, State Agriculture Departments","url":"https://nmsa.dac.gov.in/","status":"Active"},
-  {"id":12,"name":"Pradhan Mantri Fasal Bima Yojana","category":"Insurance","description":"Crop insurance scheme to protect farmers against crop loss due to natural calamities.","eligibility":"All farmers","url":"https://pmfby.gov.in/","status":"Active"},
-  {"id":13,"name":"Sub-Mission on Agroforestry","category":"Sustainable Agriculture","description":"Promote tree plantation on farms and intercropping for sustainable income.","eligibility":"Farmers, FPOs, SHGs","url":"https://nmsa.dac.gov.in/sub-mission-on-agroforestry/","status":"Active"},
-  {"id":14,"name":"Pradhan Mantri Krishi Sinchai Yojana","category":"Irrigation","description":"Expand irrigation coverage and improve water use efficiency.","eligibility":"All farmers","url":"https://pmksy.gov.in/","status":"Active"},
-  {"id":15,"name":"E-NAM (National Agriculture Market)","category":"Market Access","description":"Unified online market for farmers to sell produce at better prices.","eligibility":"All farmers","url":"https://enam.gov.in/","status":"Active"},
-  {"id":16,"name":"Paramparagat Krishi Vikas Yojana","category":"Organic Farming","description":"Promote organic farming clusters.","eligibility":"Farmers, FPOs, SHGs","url":"https://pkvy.nic.in/","status":"Active"},
-  {"id":17,"name":"Rashtriya Krishi Sinchayee Yojana","category":"Irrigation","description":"Enhance farm irrigation and water conservation.","eligibility":"All farmers","url":"https://rkvy.nic.in/","status":"Active"},
-  {"id":18,"name":"Integrated Scheme on Oilseeds, Pulses, Oil Palm & Maize (ISOPOM)","category":"Production Support","description":"Boost oilseeds, pulses, oil palm & maize production.","eligibility":"Farmers, FPOs","url":"https://agricoop.nic.in/","status":"Active"},
-  {"id":19,"name":"Pradhan Mantri Annadata Aay SanraksHan Abhiyan","category":"Price Support","description":"Ensures MSP and procurement support to farmers.","eligibility":"All farmers","url":"https://agricoop.gov.in/","status":"Active"},
-  {"id":20,"name":"National Cooperative Development Corporation Schemes","category":"Institution Building","description":"Financial and institutional support to farmer cooperatives.","eligibility":"Farmer groups & cooperatives","url":"https://ncdfi.org/","status":"Active"},
-  {"id":21,"name":"Market Intelligence Services for Farmers","category":"Market Access","description":"Provide timely market info and MSP alerts to farmers.","eligibility":"All farmers","url":"https://agricoop.nic.in/","status":"Active"},
-  {"id":22,"name":"Paramparagat Krishi Vikas Yojana (PKVY)","category":"Organic Farming","description":"Cluster approach for organic farming promotion.","eligibility":"Farmer groups, FPOs, SHGs","url":"https://pkvy.nic.in/","status":"Active"},
-  {"id":23,"name":"National Agriculture Insurance Scheme","category":"Insurance","description":"Crop insurance for various crops against natural calamities.","eligibility":"All farmers","url":"https://pmfby.gov.in/","status":"Active"},
-  {"id":24,"name":"National Horticulture Mission","category":"Production Support","description":"Support production and marketing of horticulture crops.","eligibility":"Farmers, FPOs, SHGs","url":"https://nhm.gov.in/","status":"Active"},
-  {"id":25,"name":"Fertilizer Subsidy Scheme","category":"Input Support","description":"Subsidy on fertilizers to reduce input costs for farmers.","eligibility":"All farmers","url":"https://fert.nic.in/","status":"Active"},
-  {"id":26,"name":"National Food Processing Mission","category":"Processing Support","description":"Promote value addition and processing of agricultural produce.","eligibility":"Farmers, FPOs, Micro enterprises","url":"https://mofpi.nic.in/","status":"Active"},
-  {"id":27,"name":"Kisan Credit Card Scheme","category":"Credit Support","description":"Provide short-term credit to farmers at subsidized rates.","eligibility":"All farmers","url":"https://www.rbi.org.in/","status":"Active"},
-  {"id":28,"name":"Soil & Water Testing Labs Support","category":"Soil & Fertility","description":"Testing facilities for soil and water to improve farm productivity.","eligibility":"All farmers","url":"https://soilhealth.dac.gov.in/","status":"Active"},
-  {"id":29,"name":"Livestock Insurance Scheme","category":"Insurance","description":"Insurance coverage for livestock against death and disease.","eligibility":"All livestock owners","url":"https://dahd.nic.in/","status":"Active"},
-  {"id":30,"name":"Rashtriya Krishi Vikas Yojana (RKVY) – RAFTAAR","category":"Production Support","description":"Promote agri-entrepreneurship and infrastructure projects.","eligibility":"Farmers, FPOs, Startups","url":"https://rkvy.nic.in/","status":"Active"},
-  {"id":31,"name":"National Bamboo Mission","category":"Production Support","description":"Promote bamboo cultivation and value addition.","eligibility":"Farmers, FPOs, SHGs","url":"https://nbm.nic.in/","status":"Active"},
-  {"id":32,"name":"National Mission on Agriculture Extension & Technology","category":"Skill Development","description":"Training and extension services for farmers.","eligibility":"Farmers, FPOs","url":"https://nmaet.nic.in/","status":"Active"},
-  {"id":33,"name":"FPO Equity Grant Scheme","category":"Institution Building","description":"Financial support for farmer producer organizations.","eligibility":"FPOs","url":"https://sfacindia.com/","status":"Active"},
-  {"id":34,"name":"National Cooperative Development Corporation – Crop Marketing Support","category":"Market Access","description":"Support farmer cooperatives in marketing of produce.","eligibility":"Farmer cooperatives","url":"https://ncdfi.org/","status":"Active"},
-  {"id":35,"name":"Seed Replacement Program","category":"Input Support","description":"Subsidy for certified seeds to improve crop productivity.","eligibility":"All farmers","url":"https://seednet.gov.in/","status":"Active"},
-  {"id":36,"name":"Livelihoods through Integrated Farming System","category":"Income Support","description":"Promote diversified farming to increase income.","eligibility":"All farmers","url":"https://nmsa.dac.gov.in/","status":"Active"},
-  {"id":37,"name":"PMKSY Per Drop More Crop","category":"Irrigation","description":"Promote micro-irrigation and water-use efficiency.","eligibility":"All farmers","url":"https://pmksy.gov.in/","status":"Active"},
-  {"id":38,"name":"Farmer Producer Company Formation Support","category":"Institution Building","description":"Legal and financial support for setting up FPOs as companies.","eligibility":"Groups of farmers","url":"https://sfacindia.com/","status":"Active"},
-  {"id":39,"name":"Market Development Assistance for Agri Products","category":"Market Access","description":"Support farmers in branding, packaging and marketing.","eligibility":"FPOs, Farmer Groups","url":"https://agricoop.nic.in/","status":"Active"},
-  {"id":40,"name":"Integrated Pest Management Support","category":"Production Support","description":"Promote pest management practices for higher yield.","eligibility":"All farmers","url":"https://nmsa.dac.gov.in/","status":"Active"},
-  {"id":41,"name":"Livelihoods for Small and Marginal Farmers","category":"Income Support","description":"Financial and skill support to small farmers.","eligibility":"Small & marginal farmers","url":"https://rkvy.nic.in/","status":"Active"},
-  {"id":42,"name":"Dairy Processing & Infrastructure Support","category":"Processing Support","description":"Promote dairy production and processing.","eligibility":"Farmers, Cooperatives, FPOs","url":"https://nddb.coop/","status":"Active"},
-  {"id":43,"name":"National Mission on Oilseeds & Oil Palm","category":"Production Support","description":"Promote oilseeds and oil palm cultivation.","eligibility":"Farmers","url":"https://agricoop.nic.in/","status":"Active"},
-  {"id":44,"name":"Agricultural Mechanization Scheme","category":"Production Support","description":"Provide farm machinery at subsidized rates to farmers.","eligibility":"All farmers","url":"https://agrimachinery.nic.in/","status":"Active"},
-  {"id":45,"name":"Fisheries Development Schemes","category":"Production Support","description":"Support fish farmers and aquaculture infrastructure.","eligibility":"Fish farmers, Cooperatives","url":"https://mpeda.gov.in/","status":"Active"},
-  {"id":46,"name":"RKVY–RAFTAAR State/Cluster Projects","category":"Infrastructure","description":"Funding for state-level agriculture projects.","eligibility":"States, Farmer Groups, FPOs","url":"https://rkvy.nic.in/","status":"Active"},
-  {"id":47,"name":"Precision Farming Development Scheme","category":"Production Support","description":"Promote precision farming and technology adoption in agriculture.","eligibility":"All farmers","url":"https://pmksy.gov.in/","status":"Active"},
-  {"id":48,"name":"Weather-Based Crop Insurance Scheme","category":"Insurance","description":"Insurance for crops based on weather parameters.","eligibility":"All farmers","url":"https://pmfby.gov.in/","status":"Active"},
-  {"id":49,"name":"Livestock Development Scheme","category":"Production Support","description":"Support for dairy, poultry, and small ruminant farming.","eligibility":"Farmers, Cooperatives, FPOs","url":"https://dahd.nic.in/","status":"Active"},
-  {"id":50,"name":"Farmers’ Training & Extension Scheme","category":"Skill Development","description":"Training programs to improve agricultural practices and productivity.","eligibility":"All farmers","url":"https://nmaet.nic.in/","status":"Active"},
-  {"id":51,"name":"National Pulses Development Project","category":"Production Support","description":"Increase pulses production through improved varieties and practices.","eligibility":"Farmers, FPOs","url":"https://nfsm.gov.in/","status":"Active"},
-  {"id":52,"name":"National Oilseeds and Oil Palm Mission","category":"Production Support","description":"Promote cultivation and productivity of oilseeds and oil palm.","eligibility":"Farmers, FPOs","url":"https://agricoop.nic.in/","status":"Active"},
-  {"id":53,"name":"FPO Support for Agri-Inputs","category":"Institution Building","description":"Provide seeds, fertilizers, machinery support to FPOs.","eligibility":"Farmer Producer Organizations","url":"https://sfacindia.com/","status":"Active"},
-  {"id":54,"name":"Pradhan Mantri Krishi Sinchai Yojana – Watershed Development","category":"Irrigation","description":"Promote water conservation and efficient irrigation.","eligibility":"All farmers, watersheds","url":"https://pmksy.gov.in/","status":"Active"},
-  {"id":55,"name":"Micro Irrigation Scheme","category":"Irrigation","description":"Subsidy for drip and sprinkler irrigation.","eligibility":"All farmers","url":"https://pmksy.gov.in/","status":"Active"},
-  {"id":56,"name":"Cluster Farming Scheme","category":"Production Support","description":"Promote cluster-based farming for better productivity and market access.","eligibility":"Groups of farmers","url":"https://nfsm.gov.in/","status":"Active"},
-  {"id":57,"name":"Seed Replacement Program","category":"Input Support","description":"Subsidy for certified seeds to improve crop productivity.","eligibility":"All farmers","url":"https://seednet.gov.in/","status":"Active"},
-  {"id":58,"name":"Integrated Pest Management Scheme","category":"Production Support","description":"Promote scientific pest management practices.","eligibility":"All farmers","url":"https://nmsa.dac.gov.in/","status":"Active"},
-  {"id":59,"name":"Dairy Development Scheme","category":"Production Support","description":"Financial and technical support for dairy farmers.","eligibility":"All dairy farmers","url":"https://nddb.coop/","status":"Active"},
-  {"id":60,"name":"Livestock Insurance Scheme","category":"Insurance","description":"Insurance coverage for livestock against death and disease.","eligibility":"All livestock owners","url":"https://dahd.nic.in/","status":"Active"},
-  {"id":61,"name":"Kisan Credit Card Scheme","category":"Credit Support","description":"Short-term credit to farmers at subsidized interest.","eligibility":"All farmers","url":"https://www.rbi.org.in/","status":"Active"},
-  {"id":62,"name":"National Mission on Agriculture Extension & Technology","category":"Skill Development","description":"Training and extension support for farmers.","eligibility":"Farmers, FPOs","url":"https://nmaet.nic.in/","status":"Active"},
-  {"id":63,"name":"National Horticulture Mission","category":"Production Support","description":"Support production and marketing of horticultural crops.","eligibility":"Farmers, FPOs, SHGs","url":"https://nhm.gov.in/","status":"Active"},
-  {"id":64,"name":"Paramparagat Krishi Vikas Yojana","category":"Organic Farming","description":"Promote organic farming in clusters.","eligibility":"Farmer groups, SHGs, FPOs","url":"https://pkvy.nic.in/","status":"Active"},
-  {"id":65,"name":"National Cooperative Development Corporation – Crop Marketing Support","category":"Market Access","description":"Support marketing of crops via farmer cooperatives.","eligibility":"Farmer cooperatives","url":"https://ncdfi.org/","status":"Active"},
-  {"id":66,"name":"FPO Equity Grant Scheme","category":"Institution Building","description":"Equity grants for FPO formation and scaling.","eligibility":"Farmer Producer Organizations","url":"https://sfacindia.com/","status":"Active"},
-  {"id":67,"name":"Market Intelligence Services for Farmers","category":"Market Access","description":"Provide market prices and MSP alerts to farmers.","eligibility":"All farmers","url":"https://agricoop.nic.in/","status":"Active"},
-  {"id":68,"name":"Livelihoods through Integrated Farming System","category":"Income Support","description":"Diversified farming approach to improve income.","eligibility":"All farmers","url":"https://nmsa.dac.gov.in/","status":"Active"},
-  {"id":69,"name":"National Mission on Oilseeds & Oil Palm","category":"Production Support","description":"Promote cultivation and productivity of oilseeds and oil palm crops.","eligibility":"Farmers, FPOs","url":"https://agricoop.nic.in/","status":"Active"},
-  {"id":70,"name":"Agricultural Mechanization Scheme","category":"Production Support","description":"Provide subsidized farm machinery for farmers.","eligibility":"All farmers","url":"https://agrimachinery.nic.in/","status":"Active"},
-  {"id":71,"name":"Pradhan Mantri Fasal Bima Yojana – Weather Insurance","category":"Insurance","description":"Crop insurance based on weather parameters to reduce risk.","eligibility":"All farmers","url":"https://pmfby.gov.in/","status":"Active"},
-  {"id":72,"name":"National Bamboo Mission","category":"Production Support","description":"Promote bamboo cultivation and processing.","eligibility":"Farmers, FPOs, SHGs","url":"https://nbm.nic.in/","status":"Active"},
-  {"id":73,"name":"Precision Farming Development Scheme","category":"Production Support","description":"Encourage precision farming and technology adoption.","eligibility":"All farmers","url":"https://pmksy.gov.in/","status":"Active"},
-  {"id":74,"name":"Livestock Development Scheme","category":"Production Support","description":"Support dairy, poultry, and small ruminant farming.","eligibility":"Farmers, Cooperatives, FPOs","url":"https://dahd.nic.in/","status":"Active"},
-  {"id":75,"name":"Agri-Entrepreneurship Development Scheme","category":"Entrepreneurship","description":"Support farmer startups and agribusinesses.","eligibility":"Farmers, FPOs, Startups","url":"https://rkvy.nic.in/","status":"Active"},
-  {"id":76,"name":"Cluster Farming for Millets","category":"Production Support","description":"Promote millet cultivation via cluster approach.","eligibility":"Groups of farmers","url":"https://nfsm.gov.in/","status":"Active"},
-  {"id":77,"name":"PM-AASHA – Price Support for Millets","category":"Price Support","description":"Ensures MSP support for millet farmers.","eligibility":"Millet farmers","url":"https://agricoop.gov.in/","status":"Active"},
-  {"id":78,"name":"Market Development Assistance for Agri Products","category":"Market Access","description":"Support for branding, packaging, and marketing by FPOs.","eligibility":"Farmer groups, FPOs","url":"https://agricoop.nic.in/","status":"Active"},
-  {"id":79,"name":"Seed Replacement & Subsidy Program","category":"Input Support","description":"Subsidy for high-quality seeds to improve productivity.","eligibility":"All farmers","url":"https://seednet.gov.in/","status":"Active"},
-  {"id":80,"name":"National Horticulture Board Schemes","category":"Production Support","description":"Support horticulture farmers for production & marketing.","eligibility":"Farmers, FPOs","url":"https://nhb.gov.in/","status":"Active"},
-  {"id":81,"name":"Agri Export Support Scheme","category":"Market Access","description":"Support for export of agricultural produce.","eligibility":"Farmers, FPOs, Exporters","url":"https://apeda.gov.in/","status":"Active"},
-  {"id":82,"name":"Livelihoods for Small & Marginal Farmers","category":"Income Support","description":"Financial and skill support to small farmers.","eligibility":"Small & marginal farmers","url":"https://rkvy.nic.in/","status":"Active"},
-  {"id":83,"name":"Dairy Processing & Infrastructure Support","category":"Processing Support","description":"Promote dairy production and processing.","eligibility":"Farmers, Cooperatives, FPOs","url":"https://nddb.coop/","status":"Active"},
-  {"id":84,"name":"Pradhan Mantri Krishi Sinchai Yojana – Per Drop More Crop","category":"Irrigation","description":"Promote micro-irrigation and water-use efficiency.","eligibility":"All farmers","url":"https://pmksy.gov.in/","status":"Active"},
-  {"id":85,"name":"Livestock Insurance for Dairy Farmers","category":"Insurance","description":"Protect dairy farmers against livestock loss.","eligibility":"All dairy farmers","url":"https://dahd.nic.in/","status":"Active"},
-  {"id":86,"name":"Agri-Mechanization Support Scheme","category":"Production Support","description":"Subsidy for tractors, harvesters, and other machinery.","eligibility":"All farmers","url":"https://agrimachinery.nic.in/","status":"Active"},
-  {"id":87,"name":"National Pulses Development Project","category":"Production Support","description":"Boost pulses production using high-yield varieties and better practices.","eligibility":"Farmers, FPOs","url":"https://nfsm.gov.in/","status":"Active"},
-  {"id":88,"name":"Integrated Farming System Support","category":"Income Support","description":"Promote diversified agriculture to increase income.","eligibility":"All farmers","url":"https://nmsa.dac.gov.in/","status":"Active"},
-  {"id":89,"name":"Paramparagat Krishi Vikas Yojana – Organic Cluster","category":"Organic Farming","description":"Promote organic farming clusters for sustainable agriculture.","eligibility":"Farmers, FPOs, SHGs","url":"https://pkvy.nic.in/","status":"Active"},
-  {"id":90,"name":"Agri-Processing & Value Addition Scheme","category":"Processing Support","description":"Support farmers in post-harvest processing and value addition.","eligibility":"Farmers, FPOs, Micro enterprises","url":"https://mofpi.nic.in/","status":"Active"}
+  {
+    "id": 1,
+    "name": "PM Kisan Samman Nidhi (PM-KISAN)",
+    "category": "Income Support",
+    "description": "Financial support of ₹6000/year for eligible farmer families.",
+    "benefits": [
+      "₹6000 per year credited directly to the bank account",
+      "₹2000 installment every 4 months",
+      "Supports small & marginal farmers",
+      "Reduces dependency on money lenders"
+    ],
+    "eligibility": [
+      "All landholding farmer families",
+      "Valid land ownership records"
+    ],
+    "not_eligible": [
+      "Income tax payers",
+      "Government employees"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Bank Passbook",
+      "Land Ownership Document"
+    ],
+    "apply_link": "https://pmkisan.gov.in/RegistrationForm.aspx",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 2,
+    "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "category": "Crop Insurance",
+    "description": "Insurance coverage and financial help in crop failure due to natural calamities.",
+    "benefits": [
+      "Low premium insurance for crops",
+      "Coverage for natural calamities, pests & diseases",
+      "Claims settled directly into bank accounts"
+    ],
+    "eligibility": [
+      "All farmers cultivating notified crops",
+      "Farmers with crop loans automatically covered"
+    ],
+    "not_eligible": [
+      "Non-cultivating landowners"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Bank Passbook",
+      "Land Proof",
+      "Sowing Certificate"
+    ],
+    "apply_link": "https://pmfby.gov.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 3,
+    "name": "Kisan Credit Card (KCC)",
+    "category": "Loan / Credit",
+    "description": "Provides short-term loans to farmers at low interest rate.",
+    "benefits": [
+      "Loans at 4% interest with subsidy",
+      "Collateral-free loans up to ₹3 lakh",
+      "Covers crop expenses, livestock & fisheries"
+    ],
+    "eligibility": [
+      "Farmers involved in crop cultivation",
+      "Fishery & animal husbandry farmers"
+    ],
+    "not_eligible": [
+      "Defaulters of previous loans"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Land Documents",
+      "Bank Passbook"
+    ],
+    "apply_link": "https://pmkisan.gov.in/Documents/Kcc.pdf",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 4,
+    "name": "PM Krishi Sinchai Yojana (PMKSY)",
+    "category": "Irrigation Support",
+    "description": "Ensures water availability and promotes micro irrigation.",
+    "benefits": [
+      "Subsidy for drip & sprinkler irrigation systems",
+      "Improved water management",
+      "Support for agricultural water-saving technologies"
+    ],
+    "eligibility": [
+      "All farmers",
+      "Priority to small & marginal farmers"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Land Record",
+      "Bank Passbook"
+    ],
+    "apply_link": "https://pmksy.gov.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+    {
+    "id": 5,
+    "name": "National Agriculture Market (e-NAM)",
+    "category": "Market Support",
+    "description": "Online trading platform for transparent crop selling at fair prices.",
+    "benefits": [
+      "Sell crops online without middlemen",
+      "Better price discovery for farmers",
+      "Real-time payment settlement"
+    ],
+    "eligibility": [
+      "All registered farmers",
+      "Valid bank account"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Bank Passbook"
+    ],
+    "apply_link": "https://enam.gov.in/web/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 6,
+    "name": "Soil Health Card Scheme",
+    "category": "Fertilizer Assistance",
+    "description": "Provides soil nutrient status and fertilizer recommendations to farmers.",
+    "benefits": [
+      "Free soil testing every 2 years",
+      "Scientific fertilizer usage guidance",
+      "Reduces cost of cultivation"
+    ],
+    "eligibility": [
+      "All farmers"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Land Ownership Document"
+    ],
+    "apply_link": "https://soilhealth.dac.gov.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 7,
+    "name": "Pradhan Mantri Kisan Maandhan Yojana (PMKMY)",
+    "category": "Pension",
+    "description": "Monthly pension of ₹3000 to farmers after 60 years.",
+    "benefits": [
+      "₹3000 monthly lifelong pension",
+      "Voluntary contribution scheme",
+      "Secure financial support post retirement"
+    ],
+    "eligibility": [
+      "Farmers age 18—40 years",
+      "Monthly income below ₹15000"
+    ],
+    "not_eligible": [
+      "Income tax payers",
+      "Government pension holders"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Bank Passbook"
+    ],
+    "apply_link": "https://maandhan.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 8,
+    "name": "Rashtriya Krishi Vikas Yojana (RKVY)",
+    "category": "Agriculture Infrastructure",
+    "description": "Funding support to improve agriculture production and farming systems.",
+    "benefits": [
+      "Support for farm machinery & storage",
+      "Funds for innovation projects",
+      "Encourages agri-startup ecosystem"
+    ],
+    "eligibility": [
+      "All Indian farmers"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Land Record Document"
+    ],
+    "apply_link": "https://rkvy.nic.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 9,
+    "name": "Gramin Bhandaran Yojana",
+    "category": "Storage & Warehousing",
+    "description": "Provides subsidy for building warehouses and cold storage.",
+    "benefits": [
+      "Subsidy up to 33% for warehouse construction",
+      "Prevents crop wastage",
+      "Better bargaining price for crops"
+    ],
+    "eligibility": [
+      "Farmers",
+      "Farmer producer groups",
+      "Agricultural cooperatives"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Land Record"
+    ],
+    "apply_link": "https://agriwelfare.gov.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 10,
+    "name": "Dairy Entrepreneurship Development Scheme (DEDS)",
+    "category": "Animal Husbandry",
+    "description": "Supports dairy farmers for cattle purchase and dairy setup.",
+    "benefits": [
+      "Subsidy up to 33% for dairy units",
+      "Loan assistance for dairy business",
+      "Improves rural employment"
+    ],
+    "eligibility": [
+      "Dairy farmers",
+      "Self-help groups"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Bank Passbook"
+    ],
+    "apply_link": "https://nabard.org/content1.aspx?id=591&catid=23&mid=530",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 11,
+    "name": "National Livestock Mission (NLM)",
+    "category": "Livestock Development",
+    "description": "Improves livestock productivity & provides financial support.",
+    "benefits": [
+      "Subsidy for poultry, goat & sheep farming",
+      "Support for fodder cultivation",
+      "Training and capacity building"
+    ],
+    "eligibility": [
+      "Livestock farmers",
+      "Self-help groups"
+    ],
+    "documents": [
+      "Aadhaar Card"
+    ],
+    "apply_link": "https://nlm.udyamimitra.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 12,
+    "name": "Agriculture Infrastructure Fund (AIF)",
+    "category": "Infrastructure Loan",
+    "description": "Financial support for building post-harvest infrastructure.",
+    "benefits": [
+      "Loan subsidy for farm equipment & storage",
+      "7% interest subsidy for 7 years",
+      "Helps reduce crop losses"
+    ],
+    "eligibility": [
+      "Every Indian farmer",
+      "Farmer Producer Organizations (FPOs)"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Land Records"
+    ],
+    "apply_link": "https://agriinfra.dac.gov.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 13,
+    "name": "Mukhya Mantri Kisan Mitra Energy Yojana",
+    "category": "Electricity Support",
+    "description": "Subsidy on electricity bills for agricultural power connections.",
+    "benefits": [
+      "Direct subsidy for electricity consumption",
+      "Reduces irrigation cost",
+      "Promotes farm productivity"
+    ],
+    "eligibility": [
+      "Farmers with agricultural power connection"
+    ],
+    "documents": [
+      "Electricity Bill",
+      "Aadhaar Card"
+    ],
+    "apply_link": "https://energy.rajasthan.gov.in/",
+    "status": "Active",
+    "state": "Rajasthan"
+  },
+  {
+    "id": 14,
+    "name": "Bangla Shasya Bima Yojana",
+    "category": "Crop Insurance",
+    "description": "Free crop insurance scheme for West Bengal farmers.",
+    "benefits": [
+      "100% free premium crop insurance",
+      "Coverage for natural disasters"
+    ],
+    "eligibility": [
+      "All farmers of West Bengal"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Land Record"
+    ],
+    "apply_link": "https://banglashasyabima.net/",
+    "status": "Active",
+    "state": "West Bengal"
+  },
+    {
+    "id": 15,
+    "name": "Mukhya Mantri Kisan Aay Badhotri Yojana",
+    "category": "Income Support",
+    "description": "Scheme focused on increasing farmers’ income through crop diversification and technological assistance.",
+    "benefits": [
+      "Financial assistance for new crop adoption",
+      "Training and modern farming equipment support",
+      "Encourages farmers to shift to profitable crops"
+    ],
+    "eligibility": [
+      "Small and marginal farmers"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Land record"
+    ],
+    "apply_link": "https://horti.uk.gov.in/",
+    "status": "Active",
+    "state": "Uttarakhand"
+  },
+  {
+    "id": 16,
+    "name": "Mukhya Mantri Krishi Udyog Yojana",
+    "category": "Agriculture Business",
+    "description": "Financial subsidy for setting up agriculture-based industries.",
+    "benefits": [
+      "Subsidy up to 50% for agro industries",
+      "Encourages food processing and value addition",
+      "Promotes rural employment"
+    ],
+    "eligibility": [
+      "Farmers & agri-entrepreneurs"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Bank Passbook"
+    ],
+    "apply_link": "https://krishiudyog.rajasthan.gov.in/",
+    "status": "Active",
+    "state": "Rajasthan"
+  },
+  {
+    "id": 17,
+    "name": "Mukhya Mantri Beej Swavalamban Yojana",
+    "category": "Seeds Support",
+    "description": "Subsidy on high-quality seeds to farmers.",
+    "benefits": [
+      "Up to 75% subsidy on seeds",
+      "Access to improved crop varieties",
+      "Boosts crop production"
+    ],
+    "eligibility": [
+      "All registered farmers"
+    ],
+    "documents": [
+      "Farmer registration ID",
+      "Aadhaar Card"
+    ],
+    "apply_link": "https://agri.uk.gov.in/",
+    "status": "Active",
+    "state": "Uttarakhand"
+  },
+  {
+    "id": 18,
+    "name": "Mukhya Mantri Solar Pump Yojana",
+    "category": "Irrigation / Solar",
+    "description": "Provides solar-powered pumps to farmers for irrigation.",
+    "benefits": [
+      "Subsidy up to 70% for solar pumps",
+      "Zero electricity cost",
+      "Continuous irrigation supply"
+    ],
+    "eligibility": [
+      "Farmers with agricultural land"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Land papers"
+    ],
+    "apply_link": "https://kusum.mnre.gov.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 19,
+    "name": "Sub Mission on Agriculture Mechanization (SMAM)",
+    "category": "Machinery Subsidy",
+    "description": "Financial support for purchase of farm machinery.",
+    "benefits": [
+      "Up to 50% subsidy on tractors & equipment",
+      "Support for custom hiring centers",
+      "Improves mechanized farming"
+    ],
+    "eligibility": [
+      "All farmers",
+      "Special subsidy for SC/ST & women farmers"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Bank Passbook"
+    ],
+    "apply_link": "https://agrimachinery.nic.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 20,
+    "name": "Paramparagat Krishi Vikas Yojana (PKVY)",
+    "category": "Organic Farming",
+    "description": "Financial support for promoting organic farming clusters.",
+    "benefits": [
+      "₹50,000 per hectare for organic cultivation",
+      "Supports bio fertilizers",
+      "Training & certification support"
+    ],
+    "eligibility": [
+      "Small & marginal farmers",
+      "Organic farming groups"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Farmer group registration"
+    ],
+    "apply_link": "https://pgsindia-ncof.gov.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 21,
+    "name": "National Mission on Horticulture",
+    "category": "Horticulture",
+    "description": "Support for fruit, vegetable & flower crop development.",
+    "benefits": [
+      "Subsidy for orchard setup",
+      "Support for polyhouse & shade net",
+      "Cold storage support"
+    ],
+    "eligibility": [
+      "All horticulture farmers"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Land papers"
+    ],
+    "apply_link": "https://nhm.gov.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 22,
+    "name": "Blue Revolution – Fisheries & Aquaculture",
+    "category": "Fisheries",
+    "description": "Promotes fisheries infrastructure & training support.",
+    "benefits": [
+      "Subsidy on fish farming",
+      "Subsidy on pond construction",
+      "Equipment support"
+    ],
+    "eligibility": [
+      "Fish farmers & cooperatives"
+    ],
+    "documents": [
+      "Aadhaar Card"
+    ],
+    "apply_link": "https://dahd.nic.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 23,
+    "name": "Pradhan Mantri Krishi Sinchai Yojana (PMKSY)",
+    "category": "Irrigation",
+    "description": "Provides irrigation facilities to farmland and promotes water-use efficiency.",
+    "benefits": [
+      "Subsidy for drip & sprinkler irrigation",
+      "Support for micro-irrigation projects",
+      "Improves water availability for farmers"
+    ],
+    "eligibility": [
+      "All farmers"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Land record"
+    ],
+    "apply_link": "https://pmksy.gov.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 24,
+    "name": "Pradhan Mantri Fasal Bima Yojana (PMFBY)",
+    "category": "Crop Insurance",
+    "description": "Insurance scheme to protect farmers from crop losses due to natural disasters.",
+    "benefits": [
+      "Low premium crop insurance",
+      "Coverage for natural calamities & pests",
+      "Quick claim settlement"
+    ],
+    "eligibility": [
+      "Farmers growing notified crops"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Land documents",
+      "Bank passbook"
+    ],
+    "apply_link": "https://pmfby.gov.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 25,
+    "name": "Soil Health Card Scheme",
+    "category": "Soil & Fertility",
+    "description": "Provides soil health status reports and fertilizer recommendations.",
+    "benefits": [
+      "Free soil testing",
+      "Balanced fertilizer guidance",
+      "Improves productivity"
+    ],
+    "eligibility": [
+      "All farmers"
+    ],
+    "documents": [
+      "Aadhaar Card"
+    ],
+    "apply_link": "https://soilhealth.dac.gov.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 26,
+    "name": "Kisan Credit Card (KCC)",
+    "category": "Loan & Credit",
+    "description": "Provides easy and low-interest credit for farming activities.",
+    "benefits": [
+      "Loan up to ₹3 lakh at low interest",
+      "Insurance coverage included",
+      "Flexible repayment time"
+    ],
+    "eligibility": [
+      "All farmers"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Land record",
+      "Bank details"
+    ],
+    "apply_link": "https://www.myscheme.gov.in/schemes/kcc",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 27,
+    "name": "National Beekeeping & Honey Mission",
+    "category": "Beekeeping",
+    "description": "Support to beekeepers for honey production and marketing.",
+    "benefits": [
+      "Subsidy for bee boxes & tools",
+      "Training & skill development",
+      "Market link support"
+    ],
+    "eligibility": [
+      "Farmers & beekeeping groups"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Bank passbook"
+    ],
+    "apply_link": "https://nbb.gov.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 28,
+    "name": "PM Formalization of Micro Food Processing Enterprises (PM-FME)",
+    "category": "Food Processing",
+    "description": "Supports small food processing businesses and FPOs.",
+    "benefits": [
+      "35% capital subsidy",
+      "Marketing and branding support",
+      "Training and skill development"
+    ],
+    "eligibility": [
+      "FPOs",
+      "SHGs",
+      "Individual entrepreneurs"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Bank details"
+    ],
+    "apply_link": "https://pmfme.mofpi.gov.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 29,
+    "name": "Dairy Entrepreneurship Development Scheme (DEDS)",
+    "category": "Dairy",
+    "description": "Financial assistance for establishing dairy units.",
+    "benefits": [
+      "25–33% subsidy",
+      "Support for dairy equipment purchases",
+      "Encourages rural dairy businesses"
+    ],
+    "eligibility": [
+      "Farmers",
+      "Self Help Groups"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Bank passbook"
+    ],
+    "apply_link": "https://dahd.nic.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 30,
+    "name": "National Livestock Mission",
+    "category": "Animal Husbandry",
+    "description": "Supports livestock development, breed improvement, and feed management.",
+    "benefits": [
+      "Subsidy on livestock farming",
+      "Support for poultry & goat farming",
+      "Training support"
+    ],
+    "eligibility": [
+      "Animal farmers",
+      "SHGs & FPOs"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Land record"
+    ],
+    "apply_link": "https://nlm.udyamimitra.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 31,
+    "name": "Rashtriya Gokul Mission",
+    "category": "Cattle Development",
+    "description": "Improves indigenous cattle breeds for increased productivity.",
+    "benefits": [
+      "Support for cattle breeding centers",
+      "Animal care support",
+      "Subsidy on cattle purchase"
+    ],
+    "eligibility": [
+      "Livestock farmers"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Bank passbook"
+    ],
+    "apply_link": "https://dahd.nic.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 32,
+    "name": "Agriculture Infrastructure Fund (AIF)",
+    "category": "Infrastructure",
+    "description": "Provides subsidized loans for building warehouses and cold storage.",
+    "benefits": [
+      "3% interest subvention",
+      "Credit guarantee up to ₹2 crore",
+      "Support for storage & logistics"
+    ],
+    "eligibility": [
+      "Farmers",
+      "FPOs"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Project report"
+    ],
+    "apply_link": "https://agriinfra.dac.gov.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 33,
+    "name": "Kisan Drone Subsidy Scheme",
+    "category": "Technology & Innovation",
+    "description": "Subsidy for drone purchase for pesticide spraying and crop monitoring.",
+    "benefits": [
+      "Up to 50% subsidy on drones",
+      "75% for SC/ST & women farmers",
+      "Modern farming technology support"
+    ],
+    "eligibility": [
+      "Individual farmers",
+      "FPOs and cooperatives"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Land record"
+    ],
+    "apply_link": "https://agrimachinery.nic.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 34,
+    "name": "Pradhan Mantri Kisan Maandhan Yojana (PM-KMY)",
+    "category": "Pension",
+    "description": "Monthly pension scheme for farmers after age 60.",
+    "benefits": [
+      "₹3000 monthly pension",
+      "Government co-contribution",
+      "Secure retirement income"
+    ],
+    "eligibility": [
+      "Farmers aged 18–40",
+      "Income below taxable limit"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Bank details"
+    ],
+    "apply_link": "https://maandhan.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 35,
+    "name": "PM‑KISAN Samman Nidhi",
+    "category": "Income Support",
+    "description": "Direct income support to small and marginal landholding farmer families.",
+    "benefits": [
+      "Annual financial assistance (₹6,000 per year in instalments)",
+      "Helps meet input costs like seeds, fertiliser, labour",
+      "Support irrespective of crop/livelihood conditions"
+    ],
+    "eligibility": [
+      "Landholding farmer families",
+      "Subject to land records and eligibility criteria in their state"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Land ownership/land record",
+      "Bank account details"
+    ],
+    "apply_link": "https://pmkisan.gov.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 36,
+    "name": "PM‑KUSUM (Pradhan Mantri Kisan Urja Suraksha evam Utthaan Mahabhiyan)",
+    "category": "Energy & Irrigation",
+    "description": "Promotes use of solar energy for irrigation pumps and supports setting up solar plants on barren/fallow land of farmers.",
+    "benefits": [
+      "Subsidy for solar pumps or solarising existing diesel/grid pumps",
+      "Opportunity to set up grid-connected solar plants (on own barren/fallow land)",
+      "Reduced electricity/diesel cost and additional income by selling power"
+    ],
+    "eligibility": [
+      "Individual farmers",
+      "Cooperatives / FPOs (depending on sub‑scheme)",
+      "Those with eligible land/pump connections"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Land record or ownership proof",
+      "Bank account details"
+    ],
+    "apply_link": "https://pmkusum.gov.in/",  /* link as per govt portal */
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 37,
+    "name": "Paramparagat Krishi Vikas Yojana (PKVY)",
+    "category": "Sustainable / Organic Farming",
+    "description": "Encourages organic farming through cluster-based organic cultivation, certification and market linkage support.",
+    "benefits": [
+      "Financial aid for organic farming clusters",
+      "Training and guidance for organic methods",
+      "Better market access for organic produce"
+    ],
+    "eligibility": [
+      "Farmer groups forming organic clusters",
+      "Individual farmers joining clusters"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Land documents"
+    ],
+    "apply_link": "https://farmer.gov.in/", /* or respective agriculture portal / state‑level organic farming portal */
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 38,
+    "name": "e-NAM (National Agriculture Market)",
+    "category": "Marketing & Sale",
+    "description": "Online trading platform to integrate mandis (agricultural markets) across India — helps farmers get better pricing and transparency.",
+    "benefits": [
+      "Access to a pan-India online marketplace for sale of produce",
+      "More transparent price discovery, reduced middlemen",
+      "Potential for better income via competitive bidding"
+    ],
+    "eligibility": [
+      "Farmers selling produce at mandis participating in e-NAM",
+      "Those registered with required mandi/market channels"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Mandi / seller registration proof"
+    ],
+    "apply_link": "https://enam.gov.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 39,
+    "name": "Sub‑Mission on Agricultural Mechanization (SMAM)",
+    "category": "Mechanization / Equipment",
+    "description": "Provides financial assistance to farmers for purchasing agricultural machinery to improve farm productivity and reduce labour dependency.",
+    "benefits": [
+      "Subsidy on tractors, tillers, harvesters, seed drills, and other machinery",
+      "Access to custom hiring centres for small/marginal farmers",
+      "Reduces labour costs and improves timeliness of farm operations"
+    ],
+    "eligibility": [
+      "Individual farmers",
+      "Farmers’ groups / cooperatives",
+      "Small and marginal farmers, SC/ST and women farmers get higher subsidy"
+    ],
+    "documents": [
+      "Aadhaar Card",
+      "Land ownership / beneficiary proof",
+      "Application form via DBT or state portal"
+    ],
+    "apply_link": "https://agrimachinery.nic.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 40,
+    "name": "Formation and Promotion of 10,000 Farmer Producer Organizations (FPOs)",
+    "category": "Collective / Institutional Farming",
+    "description": "Supports the formation of Farmer Producer Organisations (FPOs) to enable farmers to collectively access credit, markets, and infrastructure.",
+    "benefits": [
+      "Financial assistance up to ₹18 lakh for 3 years per FPO",
+      "Equity grant for individual farmer members",
+      "Better access to loans, storage, processing, and market linkages"
+    ],
+    "eligibility": [
+      "Group of farmers forming an FPO",
+      "Minimum members: ~300 in plains, 100 in hilly/NE regions"
+    ],
+    "documents": [
+      "Member list with Aadhaar",
+      "Land ownership proof for members",
+      "FPO registration documents"
+    ],
+    "apply_link": "https://farmer.gov.in/fpo",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 41,
+    "name": "Operation Greens",
+    "category": "Agri‑Marketing & Value Chain",
+    "description": "Supports tomato, onion, and potato (TOP) farmers with price stabilization, storage, and processing infrastructure.",
+    "benefits": [
+      "Financial support for storage, transportation, and processing of TOP crops",
+      "Reduces post-harvest losses",
+      "Stabilizes prices and ensures fair income for farmers"
+    ],
+    "eligibility": [
+      "Growers of tomato, onion, and potato",
+      "FPOs, cooperatives, producer groups involved in TOP crops"
+    ],
+    "documents": [
+      "Land / produce proof",
+      "Registration documents for groups/FPOs",
+      "Project plan for value addition / storage / processing"
+    ],
+    "apply_link": "https://mofpi.nic.in/operation-greens",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 42,
+    "name": "National Food Security Mission (NFSM)",
+    "category": "Crop Productivity / Production",
+    "description": "Aims to increase production of rice, wheat, pulses, coarse cereals, and commercial crops through improved technology and input support.",
+    "benefits": [
+      "Improved seeds, fertilizers, and technical guidance",
+      "Focus on crop diversification and yield enhancement",
+      "Financial support for demonstration plots and adoption of technology"
+    ],
+    "eligibility": [
+      "All farmers growing target crops in notified districts",
+      "Farmers adopting recommended practices"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Land record / farm details",
+      "Bank account for subsidy transfer"
+    ],
+    "apply_link": "https://nfsm.gov.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 43,
+    "name": "Rashtriya Krishi Vikas Yojana (RKVY)",
+    "category": "Agriculture Development",
+    "description": "Supports holistic development of agriculture and allied sectors with flexible fund allocation to states for crop and infrastructure development.",
+    "benefits": [
+      "Funds for improved seeds, irrigation, farm equipment",
+      "Support for agri-infrastructure and extension services",
+      "Promotes crop diversification and productivity enhancement"
+    ],
+    "eligibility": [
+      "Farmers and state agriculture departments implementing projects",
+      "All farmers participating in projects"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Land record",
+      "Bank account details"
+    ],
+    "apply_link": "https://rkvy.nic.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 44,
+    "name": "National Horticulture Mission (NHM)",
+    "category": "Horticulture / Fruit & Vegetable Cultivation",
+    "description": "Promotes holistic growth of horticulture sector through technology, quality planting material, and marketing support.",
+    "benefits": [
+      "Subsidy for nursery plants, irrigation, and protected cultivation",
+      "Training and guidance for farmers",
+      "Post-harvest management and marketing support"
+    ],
+    "eligibility": [
+      "Horticulture farmers",
+      "FPOs or farmer groups in horticulture sector"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Land / farm documents",
+      "Bank details"
+    ],
+    "apply_link": "https://nhm.gov.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 45,
+    "name": "National Mission on Oilseeds and Oil Palm (NMOOP)",
+    "category": "Crop Development",
+    "description": "Aims to increase area and production of oilseeds and oil palm through technology, subsidy, and extension support.",
+    "benefits": [
+      "Improved seeds and input subsidies",
+      "Technology and training support",
+      "Enhanced productivity and income"
+    ],
+    "eligibility": [
+      "Farmers cultivating oilseeds or oil palm",
+      "Subject to district/state guidelines"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Land ownership / farm record",
+      "Bank account details"
+    ],
+    "apply_link": "https://nmop.gov.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 46,
+    "name": "Dairy Entrepreneurship Development Scheme (DEDS)",
+    "category": "Dairy / Livestock",
+    "description": "Financial assistance for establishing dairy units and supporting dairy infrastructure.",
+    "benefits": [
+      "25–33% capital subsidy on dairy units",
+      "Support for purchasing dairy equipment",
+      "Encourages small-scale rural dairy businesses"
+    ],
+    "eligibility": [
+      "Individual farmers",
+      "Self Help Groups (SHGs)",
+      "FPOs involved in dairy"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Bank passbook",
+      "Land ownership / farm record"
+    ],
+    "apply_link": "https://dahd.nic.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 47,
+    "name": "National Livestock Mission (NLM)",
+    "category": "Animal Husbandry",
+    "description": "Supports livestock development, breed improvement, and feed management.",
+    "benefits": [
+      "Subsidy for poultry, goat, and cattle farming",
+      "Financial support for breed improvement programs",
+      "Training and skill development for farmers"
+    ],
+    "eligibility": [
+      "Animal farmers",
+      "SHGs and FPOs involved in livestock"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Land record / farm ownership proof",
+      "Bank account details"
+    ],
+    "apply_link": "https://nlm.udyamimitra.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 48,
+    "name": "Rashtriya Gokul Mission",
+    "category": "Cattle Development",
+    "description": "Improves indigenous cattle breeds for increased productivity and supports cattle development centers.",
+    "benefits": [
+      "Support for breeding centers",
+      "Subsidy for cattle purchase",
+      "Training and animal care support"
+    ],
+    "eligibility": [
+      "Livestock farmers",
+      "Cattle breeders"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Bank passbook",
+      "Cattle ownership proof"
+    ],
+    "apply_link": "https://dahd.nic.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 49,
+    "name": "Agriculture Infrastructure Fund (AIF)",
+    "category": "Infrastructure / Storage",
+    "description": "Provides loans and financial assistance for setting up farm storage, warehouses, cold storage, and supply chain infrastructure.",
+    "benefits": [
+      "3% interest subvention on loans",
+      "Credit guarantee up to ₹2 crore",
+      "Support for storage, logistics, and marketing infrastructure"
+    ],
+    "eligibility": [
+      "Individual farmers",
+      "FPOs, cooperatives, agri-entrepreneurs"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Project report",
+      "Bank account details"
+    ],
+    "apply_link": "https://agriinfra.dac.gov.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 50,
+    "name": "Kisan Drone Subsidy Scheme",
+    "category": "Technology & Innovation",
+    "description": "Subsidy for drone purchase for pesticide spraying, crop monitoring, and other precision agriculture applications.",
+    "benefits": [
+      "Up to 50% subsidy on drones for farmers",
+      "75% subsidy for SC/ST and women farmers",
+      "Promotes modern technology adoption in agriculture"
+    ],
+    "eligibility": [
+      "Individual farmers",
+      "FPOs and cooperatives"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Land record / farm proof",
+      "Bank account details"
+    ],
+    "apply_link": "https://agrimachinery.nic.in/",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 51,
+    "name": "National Mission on Natural Farming (NMNF)",
+    "category": "Sustainable / Natural Farming",
+    "description": "Promotes chemical‑free farming, biodiversity, soil health and climate‑resilient agriculture through natural farming methods.",
+    "benefits": [
+      "Reduces dependency on chemical fertilisers and pesticides",
+      "Lower input costs for farmers",
+      "Healthier soil, better resilience to climate stress, sustainable farming"
+    ],
+    "eligibility": [
+      "Farmers opting for natural farming",
+      "Willing Gram Panchayats / clusters for implementation"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Land / farm ownership record"
+    ],
+    "apply_link": "Through state agriculture / NMNF portal as notified",
+    "status": "Active",
+    "state": "All India"
+  },
+  {
+    "id": 52,
+    "name": "Rajasthan Govardhan Jaivik Urvarak Yojana",
+    "category": "Organic / Input Subsidy (State‑level)",
+    "description": "Subsidy for producing organic manure/fertilizer — supports organic farming and reduces cost of chemical fertilisers.",
+    "benefits": [
+      "Subsidy up to 50% or fixed amount for making organic manure",
+      "Encourages organic / sustainable farming",
+      "Reduces input cost for farmers"
+    ],
+    "eligibility": [
+      "Farmers in Rajasthan producing organic manure",
+      "Small/marginal farmers, as per state norms"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Land / farm record"
+    ],
+    "apply_link": "Through Rajasthan Agriculture Department / Raj‑Kisan Sathi portal",
+    "status": "Active",
+    "state": "Rajasthan"
+  },
+  {
+    "id": 53,
+    "name": "Fawara Sanyantra Yojana",
+    "category": "Irrigation / Water‑Saving (State‑level)",
+    "description": "Subsidy for installing sprinkler (fountain) irrigation systems to save water and improve irrigation efficiency.",
+    "benefits": [
+      "Subsidy of 70–75% on sprinkler units",
+      "Efficient water use and higher productivity",
+      "Helpful for water‑scarce / semi‑arid areas"
+    ],
+    "eligibility": [
+      "Farmers in Rajasthan",
+      "Who have ≥ 0.2 hectares irrigated agricultural land"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Land/farm ownership record"
+    ],
+    "apply_link": "Through Rajasthan Agriculture Dept / concerned irrigation branch",
+    "status": "Active",
+    "state": "Rajasthan"
+  },
+  {
+    "id": 54,
+    "name": "Drip Sanyantr Scheme (Rajasthan)",
+    "category": "Irrigation / Water‑Saving (State‑level)",
+    "description": "Subsidy for installing drip‑irrigation systems to conserve water and increase irrigation efficiency in dry and semi‑arid regions.",
+    "benefits": [
+      "Subsidy 70–75% for drip‑irrigation equipment (for general / small‑marginal/SC‑ST & women farmers respectively)",
+      "Better water‑use efficiency, suitable for Rajasthan’s climate",
+      "Improved yield and reduced water waste"
+    ],
+    "eligibility": [
+      "Farmers in Rajasthan",
+      "Land up to 5 hectares (as per scheme norms)"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Land / farm ownership record"
+    ],
+    "apply_link": "Through state agriculture / irrigation department portals",
+    "status": "Active",
+    "state": "Rajasthan"
+  },
+  {
+    "id": 55,
+    "name": "Mukhyamantri Beej Swavalamban Yojana",
+    "category": "Seed / Input Support (State‑level)",
+    "description": "Distribution of seed‑mini kits to farmers to encourage self‑reliance and secure quality seeds for sowing.",
+    "benefits": [
+      "Subsidised seed kits distributed by state government",
+      "Better seed quality and enhanced productivity",
+      "Helps small/marginal farmers access good seed at low cost"
+    ],
+    "eligibility": [
+      "Farmers in Rajasthan (small/marginal / all categories as per state notification)"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Land / beneficiary record"
+    ],
+    "apply_link": "Through Rajasthan Agriculture Department / related portal",
+    "status": "Active (as per 2025‑26 budget announcement)",
+    "state": "Rajasthan"
+  },
+  {
+    "id": 56,
+    "name": "Tarbandi Subsidy Yojana",
+    "category": "Land Protection / Soil Conservation (State‑level)",
+    "description": "Subsidy for bunding / land‑levelling / soil‑conservation measures to protect fields from erosion, water runoff and to retain soil fertility.",
+    "benefits": [
+        "Supports construction of field bunds, levelling and soil conservation works",
+        "Helps maintain land health, avoids soil erosion/water loss",
+        "Beneficial for marginal lands, uneven terrain"
+    ],
+    "eligibility": [
+      "Farmers in Rajasthan",
+      "As per state‑defined beneficiaries"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Land / farm records"
+    ],
+    "apply_link": "Through Rajasthan Agriculture Department / state scheme portal",
+    "status": "Active (included in 2025–26 budget list)",
+    "state": "Rajasthan"
+  },
+  {
+    "id": 57,
+    "name": "Mukhyamantri Pashu Bima Yojana",
+    "category": "Animal Husbandry / Livestock (State‑level)",
+    "description": "Subsidised animal‑insurance / livestock support scheme for livestock keepers to help with veterinary, health and insurance for animals.",
+    "benefits": [
+      "Insurance / health coverage for livestock",
+      "Reduced cost of veterinary support / medicines",
+      "Encourages livestock farming along with agriculture"
+    ],
+    "eligibility": [
+      "Livestock farmers in Rajasthan",
+      "As per state eligibility criteria"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Livestock ownership record / registration"
+    ],
+    "apply_link": "Via state animal‑husbandry / agriculture department",
+    "status": "Active (beneficiaries doubled in 2025–26 state budget update)",
+    "state": "Rajasthan"
+  },
+  {
+    "id": 58,
+    "name": "Pashudhan Nishulk Arogya Yojana",
+    "category": "Animal Husbandry / Veterinary (State‑level)",
+    "description": "Free/ subsidised veterinary services and medicines for livestock — veterinary sub‑centres to be set up in village panchayats for better animal health support.",
+    "benefits": [
+      "Access to veterinary care, medicines, vaccinations for animals",
+      "Improved livestock health & productivity",
+      "Support for rural farmers rearing animals"
+    ],
+    "eligibility": [
+      "Livestock owners in designated rural/ village panchayats",
+      "As per scheme norms"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Livestock / animal ownership proof"
+    ],
+    "apply_link": "Through Rajasthan animal‑husbandry / veterinary services dept",
+    "status": "Active (as per 2025‑26 announcements)",
+    "state": "Rajasthan"
+  },
+  {
+    "id": 59,
+    "name": "Farm‑Pond & Water‑Storage Subsidy Scheme (State‑level — Rajasthan)",
+    "category": "Water‑Conservation / Irrigation / Infrastructure",
+    "description": "Subsidy and support for farmers to dig farm‑ponds, diggis (small water reservoirs) and install water‑storage structures to store rain or canal water for irrigation, especially for dry seasons.",
+    "benefits": [
+      "Helps store water for irrigation during lean / dry seasons",
+      "Improved water security for semi‑arid / rainfall‑reliant farms",
+      "Reduces risk of crop failure due to water shortage"
+    ],
+    "eligibility": [
+      "Farmers in Rajasthan",
+      "As per state notification (land/ farm requirement & size limits)"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Land / farm ownership documents"
+    ],
+    "apply_link": "Through state agriculture / water‑resource department / notified portal",
+    "status": "Active (recent budget mentions large allocation for farm‑ponds & solar pumps)",
+    "state": "Rajasthan"
+  },
+  {
+    "id": 60,
+    "name": "Pradhan Mantri Dhan‑Dhaanya Krishi Yojana",
+    "category": "Crop Productivity & Agricultural Development",
+    "description": "A scheme (2025) aimed at boosting productivity, irrigation, storage and allied infrastructure in selected agri‑districts across India (including some districts in Rajasthan).",
+    "benefits": [
+      "Support for irrigation, micro‑irrigation, storage and logistics infrastructure",
+      "Crop diversification and yield enhancement",
+      "Credit and infrastructure support in backward / low‑productivity districts"
+    ],
+    "eligibility": [
+      "Farmers in selected districts / regions (as per scheme inclusion list, including few Rajasthan districts)",
+      "All categories (small/marginal and larger farmers)"
+    ],
+    "documents": [
+      "Aadhaar",
+      "Land / farm record",
+      "Bank account for benefit transfer"
+    ],
+    "apply_link": "Through Agriculture Ministry / district agriculture offices (after notification)",
+    "status": "Active (launched 2025, early phases implementation) ",
+    "state": "Designated States (including some districts in Rajasthan)"
+  },
+  {
+    "id": 61,
+    "name": "Modified Interest Subvention Scheme (MISS)",
+    "category": "Credit / Loan Support",
+    "description": "Provides concessional short‑term agri‑loans for crop husbandry, animal husbandry, dairying, fisheries — with subsidised interest and subvention benefit for prompt repayment.",
+    "benefits": [
+      "Lower interest rate loans (effectively ~4% per annum after subvention)",
+      "Helps small/marginal farmers get crop loans affordably",
+      "Available for crop production, allied farming, post‑harvest loans"
+    ],
+    "eligibility": [
+      "Farmers with Kisan Credit Card (KCC)",
+      "Small and marginal farmers needing short‑term loans"
+    ],
+    "documents": [
+      "KCC application / bank account / Aadhaar / land record as required"
+    ],
+    "apply_link": "Through scheduled banks offering agricultural credit (as per scheme guidelines)",
+    "status": "Active (ongoing scheme) ",
+    "state": "All India"
+  },
+  {
+    "id": 62,
+    "name": "Market Intervention Scheme & Price Support Scheme (MIS‑PSS)",
+    "category": "Crop Marketing & Price Support",
+    "description": "Provides price support / procurement or minimum support when market prices fall below economic thresholds — for pulses, oilseeds, perishable & horticultural produce in certain conditions.",
+    "benefits": [
+      "Prevents distress sale and major losses for farmers",
+      "Assures minimum support price or compensation when market price crashes",
+      "Stabilises farm income for vulnerable crops"
+    ],
+    "eligibility": [
+      "Farmers / producers of covered commodities (pulses, oilseeds, perishable crops) in notified areas",
+      "As per scheme specification and market intervention notification"
+    ],
+    "documents": [
+      "Crop/produce registration & sale receipt, farmer identity (Aadhaar / land record), mandi‑registration if any"
+    ],
+    "apply_link": "Through nodal agencies / notified procurement centres or state / central agriculture departments",
+    "status": "Active (on notified commodities and crops) ",
+    "state": "All India (subject to crop & area notification)"
+  },
+  {
+    "id": 63,
+    "name": "Mission for Integrated Development of Horticulture (MIDH)",
+    "category": "Horticulture / Crop Diversification",
+    "description": "Promotes horticulture (fruits, vegetables, flowers, spices), helps with nursery plants, post‑harvest infra, cold storage, marketing support, to increase income diversification and reduce risk.",
+    "benefits": [
+      "Subsidy for orchard/ nursery establishment, protected cultivation, irrigation, post‑harvest facilities",
+      "Better returns through diversified/horticulture crops",
+      "Improved market access and reduced post‑harvest losses"
+    ],
+    "eligibility": [
+      "Farmers or horticulture‑farmers, FPOs / groups involved in horticulture, as per guidelines",
+      "Interested in horticulture / vegetable / fruit / flower cultivation"
+    ],
+    "documents": [
+      "Aadhaar, land / farm record, project proposal (if required), bank account"
+    ],
+    "apply_link": "Through state horticulture / agriculture departments / MIDH portal",
+    "status": "Active (national scheme) ",
+    "state": "All India (subject to state adoption)"
+  },
+  {
+    "id": 64,
+    "name": "National Agriculture Market (e-NAM) — enhanced mandi integration",
+    "category": "Marketing & Sale",
+    "description": "Promotes transparent and unified national-level marketplace for agricultural produce — helps farmers across states get better prices, reduce middlemen exploitation, easier marketing.",
+    "benefits": [
+      "Wider buyer base across India — better price discovery",
+      "Transparent trading, reduced exploitation by intermediaries",
+      "Better income realisation, easier sale & transport logistics"
+    ],
+    "eligibility": [
+      "Farmers selling produce through participating mandis / markets",
+      "Registered sellers or mandi‑members as per state rules"
+    ],
+    "documents": [
+      "Aadhaar, land / farm record, mandi‑seller registration if required"
+    ],
+    "apply_link": "Through e‑NAM portal / participating mandi / market yard registration",
+    "status": "Active (ongoing platform) ",
+    "state": "All India"
+  },
+  {
+    "id": 65,
+    "name": "Kisan Machinery Bank / Custom Hiring Centres (as part of SMAM)",
+    "category": "Mechanization / Farm Equipment (Shared Access)",
+    "description": "Allows small and marginal farmers to access farm machinery on hire via Custom Hiring Centres or Machinery Banks — so they don’t need to buy expensive equipment individually.",
+    "benefits": [
+      "Affordable access to tractors, harvesters, seeders, threshers etc.",
+      "Reduces capital requirement for small/marginal farmers",
+      "Mechanises farming and increases timeliness and productivity"
+    ],
+    "eligibility": [
+      "Small / marginal farmers, SC/ST / women farmers under scheme norms",
+      "Farmers needing machinery temporarily, not owning equipment"
+    ],
+    "documents": [
+      "Identity proof (Aadhaar), land/farmer record, hiring agreement if any"
+    ],
+    "apply_link": "Through state / central‑supported custom‑hiring centres or agri‑machinery banks",
+    "status": "Active (under SMAM / state‑level implementation) ",
+    "state": "All India / state‑wise (depending on implementation)"
+  },
+  {
+    "id": 66,
+    "name": "Horticulture Protected Cultivation & Greenhouse Subsidy Scheme (State & Central level depending on location)",
+    "category": "Horticulture / High‑Value Crop Farming",
+    "description": "Subsidy support for setting up greenhouses, poly‑houses, shade nets, low tunnels etc., to grow high‑value vegetables/flowers/herbs — helps overcome harsh climate, pest issues, and get better returns.",
+    "benefits": [
+      "Better yield and quality, protection from climate extremes and pests",
+      "Year‑round cultivation of high‑value crops, better income",
+      "Reduced water usage, efficient resource use"
+    ],
+    "eligibility": [
+      "Farmers / entrepreneurs / FPOs interested in horticulture / protected cultivation",
+      "As per guidelines of state / central horticulture subsidy scheme"
+    ],
+    "documents": [
+      "Aadhaar, land/farm documents, project plan, bank details"
+    ],
+    "apply_link": "Through horticulture department / subsidy‑portal (state or central as adopted)",
+    "status": "Active (in many states including regions applicable to semi‑arid areas) ",
+    "state": "Varies (state‑wise adoption)"
+  },
+  {
+    "id": 67,
+    "name": "Cold Storage & Post‑Harvest Infrastructure Subsidy Scheme (under AIF / allied agri‑infrastructure support)",
+    "category": "Storage / Post‑Harvest / Value Chain",
+    "description": "Supports building of cold‑storage, warehouses, sorting/grading units, pack‑houses to reduce post‑harvest losses and help farmers store produce for better prices or processing.",
+    "benefits": [
+      "Reduces wastage and losses of perishable produce",
+      "Enables storage and sale when market price improves",
+      "Helps in value addition, better income stability"
+    ],
+    "eligibility": [
+      "Farmers, farmer groups, FPOs, agri‑entrepreneurs, cooperatives as per scheme norms"
+    ],
+    "documents": [
+      "Project proposal, land/lease documents, Aadhaar, bank account, necessary permissions"
+    ],
+    "apply_link": "Through relevant agriculture / infrastructure‑fund portals (e.g. AIF) or state-level schemes",
+    "status": "Active (under infrastructure funding schemes) ",
+    "state": "All India (subject to state & project approval)"
+  },
+  {
+    "id": 68,
+    "name": "Value‑Addition & Agro‑Processing Subsidy Scheme",
+    "category": "Agro‑Processing / Value Chain",
+    "description": "Support for small food processing units, processing of farm produce (fruits, vegetables, grains) — helps farmers or rural entrepreneurs to process produce for better price and reduce spoilage.",
+    "benefits": [
+      "Encourages rural entrepreneurship and adds value to produce",
+      "Higher profit margin than raw produce, steady income",
+      "Reduces dependency on middle‑men, enables direct sales or brand‑creation"
+    ],
+    "eligibility": [
+      "Farmers / FPOs / SHGs / rural entrepreneurs engaged in agro‑processing",
+      "As per scheme/ subsidy guidelines"
+    ],
+    "documents": [
+      "Aadhaar, business plan / project proposal, land / lease or unit address proof, bank account"
+    ],
+    "apply_link": "Through central or state agro‑processing subsidy portals / department of food processing / agriculture",
+    "status": "Active (where implemented) ",
+    "state": "All India / state‑wise implementation"
+  },
+  {
+    "id": 69,
+    "name": "Livestock & Poultry Development Subsidy Scheme",
+    "category": "Animal Husbandry / Livestock",
+    "description": "Support and subsidies for poultry/goat/animal‑rearing, feed, breed improvement for farmers willing to diversify livelihood via livestock or poultry, especially as allied farming.",
+    "benefits": [
+      "Subsidy on purchase of livestock / birds / improved breeds",
+      "Support for feed, veterinary care, shelter, insurance",
+      "An alternate income source besides crops, reduced risk from crop failure"
+    ],
+    "eligibility": [
+      "Farmers / rural households engaging in livestock/poultry rearing, as per scheme norms"
+    ],
+    "documents": [
+      "Aadhaar, animal ownership proof, land/household address, bank account"
+    ],
+    "apply_link": "Through animal‑husbandry / state‑level rural livelihood / livestock development department",
+    "status": "Active (varies by state / scheme) ",
+    "state": "All India or state‑specific"
+  },
+  {
+    "id": 70,
+    "name": "Agri‑Credit Guarantee & Support Scheme (under AIF)",
+    "category": "Credit / Infrastructure & Loans",
+    "description": "Through infrastructure‑funding and credit guarantee mechanisms for agri‑projects (storage, cold storage, processing units, irrigation, etc.), helps farmers and agri‑entrepreneurs get loans with lower interest/subvention and better guarantee support.",
+    "benefits": [
+      "Loans up to high amount (e.g. 2 crore) with lower interest/subvention",
+      "Credit guarantee reduces the requirement for collateral security",
+      "Supports big and small agri‑projects — storage, processing, cold‑chain, irrigation"
+    ],
+    "eligibility": [
+      "Farmers, FPOs, cooperatives, agri‑entrepreneurs, rural SMEs as per scheme norms"
+    ],
+    "documents": [
+      "Project plan, land/lease documents, identity (Aadhaar), bank account, other required documents by lending institutions"
+    ],
+    "apply_link": "Through Agriculture Infrastructure Fund (AIF) portal / notified banks or financial institutions",
+    "status": "Active (ongoing scheme) ",
+    "state": "All India"
+  }
 ]
+
+
+
+
