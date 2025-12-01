@@ -794,7 +794,7 @@
       "Land record or ownership proof",
       "Bank account details"
     ],
-    "apply_link": "https://pmkusum.gov.in/",  /* link as per govt portal */
+    "apply_link": "https://pmkusum.gov.in/", 
     "status": "Active",
     "state": "All India"
   },
@@ -816,7 +816,7 @@
       "Aadhaar",
       "Land documents"
     ],
-    "apply_link": "https://farmer.gov.in/", /* or respective agriculture portal / state‑level organic farming portal */
+    "apply_link": "https://farmer.gov.in/",
     "status": "Active",
     "state": "All India"
   },
